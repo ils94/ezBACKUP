@@ -113,7 +113,7 @@ entry_backup_location = Entry(root)
 entry_backup_location.pack(fill=X, padx=5, pady=5)
 entry_backup_location.bind("<Double-Button-1>", lambda x: file_dialog())
 
-entry_backup_location.insert(0, "Double click to choose backup destination folder")
+entry_backup_location.insert(0, "Double click here to choose the destination of the backup folder")
 
 frame_checkbuttons = Frame(root)
 frame_checkbuttons.pack()
